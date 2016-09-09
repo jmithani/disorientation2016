@@ -50,6 +50,10 @@ body {
   margin-bottom: 1%;
 }
 
+.mdl-layout__content #intro h3 .intro-text {
+  display: inline-block;
+}
+
 .mdl-layout__content h4 {
   font-family: 'Montserrat', sans-serif;
   color: #767676;
@@ -77,8 +81,9 @@ body {
   -moz-transform:rotate(180deg); /* Firefox */
   -webkit-transform:rotate(180deg); /* Safari and Chrome */
   -o-transform:rotate(180deg); /* Opera */
-  float: left;
   color: #FFA319; 
+  margin: 0;
+  padding: 0;
 }
 
 img {
