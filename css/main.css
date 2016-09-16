@@ -1,0 +1,121 @@
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Site Nav */
+.mdl-layout .mdl-layout__header {
+  background-color: #800000;
+}
+
+@media only screen and (min-width:500px) {
+  .mdl-layout__drawer-button {
+        display: none !important;
+    }
+  /* thanks http://stackoverflow.com/questions/31364087/how-to-hide-the-icon-menu-on-large-screens */
+
+  .mdl-layout__header-row {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+}
+
+.mdl-layout__header-row .mdl-layout-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #D6D6CE;
+  font-size: 2em;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: #D6D6CE !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+}
+
+/* Page Content */
+
+body {
+  background: url('img/jeldred1.jpg') center / cover;
+  background-image: linear-gradient(to bottom, rgba(240,240,240,0.75) 0%,rgba(240,240,240,0.75) 100%), url('img/jeldred1.jpg');
+  /* thanks http://stackoverflow.com/questions/4183948/css-set-background-image-with-opacity */
+}
+
+.mdl-layout__content #intro {
+  text-align: center;
+}
+
+.mdl-layout__content #intro h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #545454;
+  font-size: 4.5em;
+  line-height: 1.5;
+  text-align: center;
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
+.mdl-layout__content #intro h3 .intro-text {
+  display: inline-block;
+}
+
+.mdl-layout__content h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #545454;
+  font-size: 2.5em;
+  line-height: 1.5;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  margin-top: 0;
+  text-align: center;
+}
+
+.mdl-layout__content #intro p {
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  font-size: 1.75em;
+  line-height: 1.5;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.mdl-layout__content #intro #rotate {
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -moz-transform:rotate(180deg); /* Firefox */
+  -webkit-transform:rotate(180deg); /* Safari and Chrome */
+  -o-transform:rotate(180deg); /* Opera */
+  color: #FFA319; 
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  font-size: 28px;
+  line-height: 2;
+  margin: 0px;
+}
+
+p a {
+  font-family: 'Montserrat', sans-serif;
+  color: #9260c7;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
