@@ -12,6 +12,7 @@ body {
   .mdl-layout__drawer-button {
         display: none !important;
     }
+  /* thanks http://stackoverflow.com/questions/31364087/how-to-hide-the-icon-menu-on-large-screens */
 
   .mdl-layout__header-row {
     padding-left: 2% !important;
@@ -32,18 +33,17 @@ body {
 }
 
 /* Page Content */
-
 body {
-  background: url('img/jeldred1.jpg') center / cover;
-  background-image: linear-gradient(to bottom, rgba(240,240,240,0.75) 0%,rgba(240,240,240,0.75) 100%), url('img/jeldred1.jpg');
+  background: url('../img/jeldred1.jpg') center / cover;
+  background-image: linear-gradient(to bottom, rgba(240,240,240,0.75) 0%,rgba(240,240,240,0.75) 100%), url('../img/jeldred1.jpg');
   /* thanks http://stackoverflow.com/questions/4183948/css-set-background-image-with-opacity */
 }
 
-.mdl-layout__content #intro {
+.mdl-layout__content {
   text-align: center;
 }
 
-.mdl-layout__content #intro h3 {
+.mdl-layout__content h3 {
   font-family: 'Montserrat', sans-serif;
   color: #545454;
   font-size: 4.5em;
@@ -55,7 +55,7 @@ body {
   margin-bottom: 1%;
 }
 
-.mdl-layout__content #intro h3 .intro-text {
+.mdl-layout__content h3 .intro-text {
   display: inline-block;
 }
 
@@ -71,7 +71,7 @@ body {
   text-align: center;
 }
 
-.mdl-layout__content #intro p {
+.mdl-layout__content p {
   font-family: 'Montserrat', sans-serif;
   color: #555;
   font-size: 1.75em;
@@ -81,13 +81,14 @@ body {
   text-align: center;
 }
 
-.mdl-layout__content #intro #rotate {
+/* @TODO: fix thissss */
+.mdl-layout__content .page-content #rotate {
   -ms-transform:rotate(180deg); /* IE 9 */
   -moz-transform:rotate(180deg); /* Firefox */
   -webkit-transform:rotate(180deg); /* Safari and Chrome */
   -o-transform:rotate(180deg); /* Opera */
   color: #FFA319; 
-  margin: 0;
+  margin-top: 2%;
   padding: 0;
 }
 
@@ -109,12 +110,14 @@ p {
 
 p a {
   font-family: 'Montserrat', sans-serif;
-  color: #9260c7;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 32px;
+  color: #555;
+  text-decoration: underline;
 }
 
-p a:hover {
-  text-decoration: underline;
+p b {
+  color: #800000;
+}
+
+h4 a {
+  color: #555;
 }
