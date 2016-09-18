@@ -118,6 +118,15 @@ p b {
   color: #800000;
 }
 
+ul {
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  font-size: 1.5em !important;
+  margin: 0px;
+  display: inline-block;
+  text-align: left;
+}
+
 h4 a {
   color: #555;
 }
