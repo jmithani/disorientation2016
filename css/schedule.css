@@ -20,10 +20,11 @@ body {
   }
 }
 
-.mdl-layout__header-row .mdl-layout-title {
+.mdl-layout__header-row .mdl-layout-title a {
   font-family: 'Montserrat', sans-serif;
   color: #D6D6CE;
-  font-size: 2em;
+  font-size: 1.4em;
+  text-decoration: none;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
