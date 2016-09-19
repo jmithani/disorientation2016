@@ -1,0 +1,53 @@
+#cards {
+  text-align: center;
+  display: inline-block;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+#olivia {
+  color: #fff;
+  background:
+  url('../img/olivia.jpg') bottom right 15% no-repeat #46B6AC;
+}
+
+#louisa {
+  color: #fff;
+  background:
+  url('../img/louisa.jpg') top left 15% no-repeat #46B6AC;
+  background-size: 100%;
+}
+
+#oliviaS {
+  color: #fff;
+  background:
+  url('../img/oliviaS.jpg') top left 15% no-repeat #46B6AC;
+  background-size: 100%;
+}
+
+#rosie {
+  color: #fff;
+  background:
+  url('../img/rosie.jpg') top left 15% no-repeat #46B6AC;
+  background-size: 100%;
+}
+
+.mdl-card__title h2 {
+  color: rgb(240,240,240);
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.mdl-card__supporting-text p {
+  font-size: 1em;
+  line-height: 1;
+  margin: 0.2%;
+  text-align: left;
+}
+
+.mdl-card__supporting-text {
+  background-color: #FFA319;
+}
