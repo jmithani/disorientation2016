@@ -1,6 +1,6 @@
 #cards {
-  text-align: center;
-  display: inline-block;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .demo-card-square.mdl-card {
@@ -32,6 +32,13 @@
   color: #fff;
   background:
   url('../img/rosie.jpg') top left 15% no-repeat #46B6AC;
+  background-size: 100%;
+}
+
+#juliet {
+  color: #fff;
+  background:
+  url('../img/juliet.jpg') top left 15% no-repeat #46B6AC;
   background-size: 100%;
 }
 
