@@ -11,43 +11,58 @@
 #olivia {
   color: #fff;
   background:
-  url('../img/olivia.jpg') bottom right 15% no-repeat #46B6AC;
+  url('../img/olivia.jpg') bottom right 15% no-repeat #800000;
 }
 
 #louisa {
   color: #fff;
   background:
-  url('../img/louisa.png') top left 15% no-repeat #46B6AC;
+  url('../img/louisa.png') top left 15% no-repeat #800000;
   background-size: 100%;
 }
 
 #oliviaS {
   color: #fff;
   background:
-  url('../img/oliviaS.jpg') top left 15% no-repeat #46B6AC;
+  url('../img/oliviaS.jpg') top left 15% no-repeat #800000;
   background-size: 100%;
 }
 
 #rosie {
   color: #fff;
   background:
-  url('../img/rosie.jpg') top left 15% no-repeat #46B6AC;
+  url('../img/rosie.jpg') top left 15% no-repeat #800000;
   background-size: 100%;
 }
 
 #juliet {
   color: #fff;
   background:
-  url('../img/juliet.png') top left 15% no-repeat #46B6AC;
+  url('../img/juliet.png') top left 15% no-repeat #800000;
   background-size: 100%;
 }
 
 #ryn {
   color: #fff;
   background:
-  url('../img/ryn.jpg') top left 15% no-repeat #46B6AC;
+  url('../img/ryn.jpg') top left 15% no-repeat #800000;
   background-size: 100%;
 }
+
+#payal {
+  color: #fff;
+  background:
+  url('../img/payal.jpg') top left 15% no-repeat #800000;
+  background-size: 100%;
+}
+
+#rikki {
+  color: #fff;
+  background:
+  url('../img/rikki.jpg') top left 15% no-repeat #800000;
+  background-size: 100%;
+}
+
 
 .mdl-card__title h2 {
   color: rgb(240,240,240);
